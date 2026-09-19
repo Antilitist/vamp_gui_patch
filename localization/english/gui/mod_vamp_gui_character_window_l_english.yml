@@ -1,0 +1,7 @@
+﻿l_english:
+ # Relation headers with counts (match Family → Children / Concubines style)
+ WARDS_LABEL: "Wards #weak ([GetDataModelSize( CharacterWindow.GetRelationsOfType( GetRelation( 'ward' ) ) )])#!"
+ FRIENDS_LABEL: "Friends #weak ([GetDataModelSize( CharacterWindow.GetRelationsOfType( GetRelation( 'friend' ) ) )])#!"
+ RIVALS_LABEL: "Rivals #weak ([GetDataModelSize( CharacterWindow.GetRelationsOfType( GetRelation( 'rival' ) ) )])#!"
+ LOVERS_LABEL: "Lovers #weak ([GetDataModelSize( CharacterWindow.GetRelationsOfType( GetRelation( 'lover' ) ) )])#!"
+ GRUDGES_LABEL: "Grudges #weak ([GetDataModelSize( CharacterWindow.GetRelationsOfType( GetRelation( 'grudge' ) ) )])#!"

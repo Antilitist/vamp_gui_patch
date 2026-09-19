@@ -1,0 +1,25 @@
+# Forces POD_neckless off for normal portraits.
+# Young and Beautiful wipes PoD ethnicity_template POD gene defaults; missing DNA can leave the neck collapsed.
+# Intentional neckless forms (penangallan / POD_neckless_flag) keep the morph.
+
+zz_mod_neck_attach = {
+	usage = game
+
+	force_neck_present = {
+		dna_modifiers = {
+			morph = {
+				mode = replace
+				gene = POD_neckless
+				template = podneckless
+				value = 0.0
+			}
+		}
+		weight = {
+			base = 200
+			modifier = {
+				factor = 0
+				POD_portrait_neckless_trigger = yes
+			}
+		}
+	}
+}
